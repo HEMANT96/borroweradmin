@@ -1,0 +1,90 @@
+.account-wrap{
+    margin: auto;
+    width: 100%;
+    max-width: 1070px;
+    background-color: #fff;
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.account-form-logo{
+    padding-bottom: 50px;
+}
+.account-form-logo img{
+    max-width: 180px;
+}
+.account-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+.width1{
+   width: 100%; 
+   outline: none;
+   border: none;
+   background: white;
+}
+.account-form form{
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.account-form-title{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.account-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.account-form .form-group{
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 40px;
+    border-bottom: 1px solid #b1b1b1;
+}
+.account-form .form-group > img{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    width: 18px;
+    transform: translate(-50%, -50%);
+}
+.account-form .form-control{
+    font-size: 12px;
+    padding-left: 0;
+    padding-right: 0;
+    height: 40px;
+    border: 0;
+}
+.account-form .cta-btn{
+    display: block;
+    width: 100%;
+}
+.author-form-note{
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    padding-top: 20px;
+}
+.author-form-note a{
+    color: #da0011;
+}
+
+.account-form .submit-btn{
+    margin-top: 40px;
+}
+.border{
+    outline: none;
+}
+@media (max-width: 767px){
+    .account-form{ padding: 25px; }
+    .account-form-logo{ padding-bottom: 25px; }
+    .account-form-logo img{ max-width: 150px; }
+}

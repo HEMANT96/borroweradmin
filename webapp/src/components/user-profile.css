@@ -1,0 +1,39 @@
+.user-prof-img{
+    width: 52px;
+    height: 52px;
+    border-radius: 52px;
+    overflow: hidden;
+}
+.user-prof-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.user-prof-text{
+    width: calc(100% - 52px);
+    padding-left: 15px;
+    text-align: left;
+}
+.user-prof-text .name{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+.width{
+    width:80% !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: wrap;
+}
+.user-prof-text .user-link{
+    font: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+.user-prof-text .user-link a{
+    color: #fff;
+}
+.user-prof-text .user-link .fa{
+    margin-left: 4px;
+}

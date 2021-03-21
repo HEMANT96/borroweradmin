@@ -1,0 +1,33 @@
+.cta-btn{
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 25px;
+    background-color: #da0011;
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid #da0011;
+    cursor: pointer;
+    outline: none;
+    -webkit-box-shadow: 4px 8px 15px 0px rgba(218, 0, 17, 0.2);
+    -moz-box-shadow: 4px 8px 15px 0px rgba(218, 0, 17, 0.2);
+    box-shadow: 4px 8px 15px 0px rgba(218, 0, 17, 0.2);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.cta-btn:hover{
+    background-color: #da0011;
+    border: 1px solid #da0011;
+}
+.cta-btn.cta-blue{
+    background-color: #00d2ee;
+    border-color: #00d2ee;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}

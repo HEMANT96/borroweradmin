@@ -1,0 +1,60 @@
+.icon-box{
+    padding: 10px 15px 70px;
+    background-color: #2d62ec;
+    border-radius: 15px;
+    color: #fff;
+    position: relative;
+    min-height: 200px;
+}
+.icon-box.box-green{
+    background-color: #2ecd79;
+}
+.icon-box a{
+    color: #fff;
+}
+.icon-box .icon-wrap{
+    font-size: 32px;
+    line-height: 42px;
+    padding-bottom: 18px;
+}
+.icon-box h4{
+    font-size: 24px;
+}
+.icon-box p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.icon-box-link{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: right;
+}
+.icon-box-link a{
+    font-size: 20px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.icon-box-link a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}

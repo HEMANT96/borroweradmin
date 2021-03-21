@@ -1,0 +1,77 @@
+.slider-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #2c61eb;
+    padding: 65px;
+}
+.slide-container{
+    width: 100%;
+    /* max-width: 535px; */
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.slide-container .image-slide{
+    position: relative;
+    padding-top: 72%;
+}
+
+.slide-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    max-width: none;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    object-fit: cover;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.slide-container .react-slideshow-container+ul.indicators{
+    position: absolute;
+    margin: 0;
+    bottom: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: -7px 0;
+    padding: 0;
+}
+.slide-container .react-slideshow-container+ul.indicators li{
+    padding: 0;
+    margin: 7px;
+    width: 8px;
+    height: 8px;
+}
+.slide-container .react-slideshow-container+ul.indicators li .each-slideshow-indicator{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.slide-container .react-slideshow-container+ul.indicators li .each-slideshow-indicator:before{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+@media (max-width: 767px){
+    .slider-wrap{ padding: 35px; }
+    .slide-container .react-slideshow-container+ul.indicators{ bottom: -22px; }
+}

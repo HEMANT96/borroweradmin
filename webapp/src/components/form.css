@@ -1,0 +1,34 @@
+.form-wrap .form-group{
+    position: relative;
+    margin-bottom: 30px;
+}
+.form-wrap .form-control{
+    font-size: 14px;
+    height: 40px;
+    border: 1px solid #b1b1b1 !important;
+    border-radius: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.form-wrap .form-submit{
+    width: 100%;
+}
+.form-cols form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.form-cols .form-group{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+}
+.form-wrap.form-cols .form-submit{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (max-width: 767px){
+    .form-cols .form-group{ width: 100%; }
+}
